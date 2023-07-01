@@ -1,0 +1,155 @@
+/* Popap Style
+-----------------------------------------------------------------------------*/
+.white-popup-block {
+    position:relative;
+    margin:auto;
+    background-color:#e3e3e3;
+    width:1074px;
+    padding:20px;
+    border-radius:10px;
+}
+.mfp-close-btn-in .mfp-close {
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    position: absolute;
+    right: -13px;
+    top: -13px;
+    text-decoration: none;
+    text-align: center;
+    opacity: 1;
+    padding: 0;
+    color: #FFF;
+    font-style: normal;
+    font-size: 20px;
+    font-family: Arial, Baskerville, monospace;
+    background:#000;
+    border-radius:100%;
+}
+.img-block img{
+    border-radius:10px;
+}
+
+.right-block a{
+color: #ef4836;
+}
+
+.right-block {
+    background:#fff;
+    border-radius:10px;
+    padding:20px 30px;
+    margin:0 0 20px 0;
+}
+.right-block table {
+    width:100%;
+    margin-bottom:30px;
+    color:#909090;
+    font-size:1.6rem;
+}
+.right-block table td {
+    padding: 0px 0px 2px 0px;
+    vertical-align:middle;
+}
+.right-block table img {margin-right:5px;}
+.right-block .button {
+	color: white;
+    width:100%;
+    display:block;
+    text-align:center;
+}
+
+.right-block .price-block {
+    overflow:hidden;
+    text-align:center;
+    margin-bottom:30px;
+}
+.right-block .old-price {
+    display:inline-block;
+}
+.right-block .old-price s {
+    font-size:1.1rem;
+    color:#909090;
+}
+.right-block .old-price sup {
+    font-size:1rem;
+    color:#909090;
+}
+.right-block .old-price  .sale-block {
+    background:#ef4836;
+    font-size:1.2rem;
+    font-family: "Exo2Medium";
+    border-radius:30px;
+    line-height:1;
+    padding:0 0 2px 0;
+    color:#fff;
+}
+.right-block .new-price {
+    display:inline-block;
+    color:#000;
+    font-size:4rem;
+    font-weight:normal;
+    padding-left:10px;
+}
+.right-block .new-price sup {
+    font-size:2.6rem;
+    font-weight:normal;
+}
+.center-content {
+    background:#fff;
+    border-radius:10px;
+    padding: 20px 30px;
+}
+.center-content .text {
+    color:#b1b1b1;
+    height:132px;
+    margin-top:20px;
+    overflow-y:auto;
+
+}
+.center-content figure {
+    position:relative;
+    overflow:hidden;
+}
+.center-content figure .trigger {
+    text-align: center;
+    top: 36px;
+    left: -105px;
+    background: #ef4836;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-family: "Exo2Medium";
+    line-height: 1;
+    padding: 4px 0;
+    position: absolute;
+    width: 100%;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+}
+.center-content table {
+    width:100%;
+    margin-bottom:;
+}
+.center-content table td {
+    color:#252525;
+    font-size:1.6rem;
+    padding-bottom:5px;
+	font-family: Exo2SemiBold;
+}
+.center-content table td.table-title {
+	font-family: Exo2Regular;
+    color:#909090;
+}
+
+.t-info {
+    margin-top:20px;
+}
+.t-info td{
+    vertical-align:top;
+}
+.t-info a {
+    color:#000;
+    text-decoration:none;
+}
