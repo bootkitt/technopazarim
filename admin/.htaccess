@@ -1,0 +1,29 @@
+# Admin directory security protection
+
+# Block common attack patterns
+<IfModule mod_rewrite.c>
+    # Security rules are handled by main .htaccess file
+    # This section intentionally left empty to avoid conflicts
+</IfModule>
+
+# Security headers for admin area
+<IfModule mod_headers.c>
+    Header always set X-Content-Type-Options nosniff
+    Header always set X-Frame-Options DENY
+    Header always set X-XSS-Protection "1; mode=block"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+    Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.tailwindcss.com https://cdnjs.cloudflare.com https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; img-src 'self' data:; connect-src 'self';"
+</IfModule>
+
+# Disable server signature
+ServerSignature Off
+
+# Prevent access to sensitive files
+<FilesMatch "\.(log|sql|conf|config|bak|backup|old|tmp)$">
+    Require all denied
+</FilesMatch>
+
+# Rate limiting (if mod_limitipconn is available)
+<IfModule mod_limitipconn.c>
+    MaxConnPerIP 10
+</IfModule>
