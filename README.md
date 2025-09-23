@@ -5,7 +5,7 @@ TechnoPazarim is a modern e-commerce platform for selling digital products. It p
 ![Main](assets/images/main.png)
 ![Products](assets/images/products.png)
 ![Cart](assets/images/cart.png)
-![Profile](assets/images/Profile.png)
+![Profile](assets/images/profile.png)
 ![Contact](assets/images/contact.png)
 
 ![Admin Panel](assets/images/admin.png)

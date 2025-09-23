@@ -5,7 +5,7 @@ TechnoPazarim, dijital ürünlerin satılmasını sağlayan modern bir e-ticaret
 ![Anasayfa](assets/images/main.png)
 ![Ürünler](assets/images/products.png)
 ![Sepet](assets/images/cart.png)
-![Profil](assets/images/Profile.png)
+![Profil](assets/images/profile.png)
 ![İletişim](assets/images/contact.png)
 
 ![Admin Panel](assets/images/admin.png)
